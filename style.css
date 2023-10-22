@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    border: 2px;
+    text-align: center;
+}
+.headimg{
+    display: flex;
+    background-image: url("/Assests/img\ head.jpeg");
+    background-position:bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    height: 70vh;
+}
+.main{
+    margin: 0px 250px 50px 250px;
+}
+.image-container{
+    display: flex;
+}
+.image-container img{
+    max-width: 100%;
+    margin: 4px;
+}
+.image-container2{
+    display: flex;
+}
+.image-container2 img{
+    max-width: 100%;
+    margin: 4px;
+}
+.lastimg{
+    display: flex;
+    background-image: url("Assests/map.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    height: 80vh;
+}
